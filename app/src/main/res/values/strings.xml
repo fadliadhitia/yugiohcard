@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">YuGiOhCard</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="activity_not_found_error_message">Activity cannot be null</string>
+</resources>

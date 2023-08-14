@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="space_mini_20">2dp</dimen>
+    <dimen name="space_mini_40">4dp</dimen>
+    <dimen name="space_mini_60">6dp</dimen>
+    <dimen name="space_mini_80">6dp</dimen>
+    <dimen name="space_mini_100">10dp</dimen>
+    <dimen name="space_mini_120">12dp</dimen>
+    <dimen name="space_mini_140">14dp</dimen>
+
+    <dimen name="space_normal_100">16dp</dimen>
+    <dimen name="space_normal_112.5">18dp</dimen>
+    <dimen name="space_normal_125">20dp</dimen>
+    <dimen name="space_normal_150">24dp</dimen>
+
+    <dimen name="space_large_100">32dp</dimen>
+    <dimen name="space_large_150">48dp</dimen>
+    <dimen name="space_large_187.5">60dp</dimen>
+    <dimen name="space_large_200">64dp</dimen>
+    <dimen name="space_large_218">70dp</dimen>
+
+    <dimen name="txt_mini_100">10sp</dimen>
+    <dimen name="txt_mini_110">11sp</dimen>
+    <dimen name="txt_mini_120">12sp</dimen>
+    <dimen name="txt_mini_140">14sp</dimen>
+
+    <dimen name="txt_normal_100">16sp</dimen>
+    <dimen name="txt_normal_112.5">18sp</dimen>
+    <dimen name="txt_normal_125">20sp</dimen>
+    <dimen name="txt_normal_150">24sp</dimen>
+    <dimen name="txt_normal_175">28sp</dimen>
+    <dimen name="txt_normal_187.5">30sp</dimen>
+
+    <dimen name="txt_large_100">32sp</dimen>
+    <dimen name="txt_large_112.5">36sp</dimen>
+    <dimen name="txt_large_125">40sp</dimen>
+    <dimen name="txt_large_150">48sp</dimen>
+
+    <fraction name="normal_guideline_start_point" type="dimen">0.05</fraction>
+    <fraction name="normal_guideline_end_point" type="dimen">0.95</fraction>
+</resources>

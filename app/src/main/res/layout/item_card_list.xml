@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/space_mini_100">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/img_view_card"
+        android:layout_width="@dimen/space_large_218"
+        android:layout_height="wrap_content"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/txt_view_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/space_mini_100"
+        android:fontFamily="@font/matrix_bold"
+        android:textStyle="bold"
+        android:textSize="45px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/img_view_card"
+        app:layout_constraintTop_toTopOf="@id/img_view_card" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/txt_view_desc"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/matrix_bold"
+        android:textSize="25px"
+        android:layout_marginTop="@dimen/space_mini_40"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/txt_view_name"
+        app:layout_constraintTop_toBottomOf="@id/txt_view_attribute" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/img_view_attribute"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginEnd="@dimen/space_mini_20"
+        android:adjustViewBounds="true"
+        app:layout_constraintBottom_toBottomOf="@id/txt_view_attribute"
+        app:layout_constraintEnd_toStartOf="@id/txt_view_attribute"
+        app:layout_constraintStart_toStartOf="@id/txt_view_name"
+        app:layout_constraintTop_toTopOf="@id/txt_view_attribute" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/txt_view_attribute"
+        android:layout_width="43dp"
+        android:layout_height="13dp"
+        android:layout_marginTop="@dimen/space_mini_40"
+        android:fontFamily="@font/matrix_bold"
+        android:textStyle="bold"
+        android:textSize="29px"
+        app:layout_constraintEnd_toStartOf="@id/img_view_level"
+        app:layout_constraintStart_toEndOf="@id/img_view_attribute"
+        app:layout_constraintTop_toBottomOf="@id/txt_view_name" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/img_view_level"
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:layout_marginEnd="@dimen/space_mini_20"
+        android:adjustViewBounds="true"
+        android:src="@drawable/ic_monster_level"
+        app:layout_constraintBottom_toBottomOf="@id/txt_view_attribute"
+        app:layout_constraintEnd_toStartOf="@id/txt_view_level"
+        app:layout_constraintStart_toEndOf="@id/txt_view_attribute"
+        app:layout_constraintTop_toTopOf="@id/txt_view_attribute" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/txt_view_level"
+        android:layout_width="44dp"
+        android:layout_height="15dp"
+        android:fontFamily="@font/matrix_bold"
+        android:textStyle="bold"
+        android:textSize="29px"
+        app:layout_constraintEnd_toStartOf="@id/txt_view_attack"
+        app:layout_constraintStart_toEndOf="@id/img_view_level"
+        app:layout_constraintTop_toTopOf="@id/txt_view_attribute" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/txt_view_attack"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/matrix_bold"
+        android:textStyle="bold"
+        android:textSize="29px"
+        app:layout_constraintEnd_toStartOf="@id/txt_view_defence"
+        app:layout_constraintStart_toEndOf="@id/txt_view_level"
+        app:layout_constraintTop_toTopOf="@id/txt_view_attribute" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/txt_view_defence"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/matrix_bold"
+        android:textStyle="bold"
+        android:textSize="29px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/txt_view_attack"
+        app:layout_constraintTop_toTopOf="@id/txt_view_attribute" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
